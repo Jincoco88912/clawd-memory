@@ -1,0 +1,23 @@
+{
+  "name": "clawd-memory",
+  "version": "1.0.0",
+  "description": "Clawd memory office: an animated pane that shows which memory files Claude reads and writes, across every session on this machine.",
+  "author": {
+    "name": "Jincoco"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Language of the pane: auto (follows LANG), en or zh-TW",
+      "default": "auto"
+    },
+    "default_view": {
+      "type": "string",
+      "title": "Default view",
+      "description": "session (this session, down to each file) or control (every session on this machine, folders only)",
+      "default": "session"
+    }
+  }
+}
